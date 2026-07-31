@@ -1,7 +1,24 @@
 aid: moretickets
-name: moretickets
-description: moretickets is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moretickets.png
+name: MoreTickets
+description: 'MoreTickets (摩天轮票务), operated by Shanghai Juqitech, is a next-generation
+  internet performance ticketing marketplace founded in 2015. The platform lets consumers
+  buy and sell tickets to concerts, stage plays, musicals, and sports events through
+  a transparent, competitive pricing marketplace with standardized ticketing services.
+  It operates primarily as a consumer-facing web and mobile marketplace and does not
+  publish a public developer API or open platform. The company is backed by Qiming
+  Venture Partners and has raised a reported $108M in funding.'
 url: https://raw.githubusercontent.com/api-evangelist/moretickets/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Ticketing
+- Events
+- Marketplace
+- Entertainment
+- Consumer
+- Sports
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/moretickets-domain-security.yml
 - type: Website
   url: https://moretickets.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
